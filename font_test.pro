@@ -23,5 +23,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
-  assets/fonts/Fonts.qml \
-  assets/fonts/qmldir
+  assets/Fonts/Fonts.qml \
+  assets/Fonts/qmldir
