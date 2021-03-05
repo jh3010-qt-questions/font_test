@@ -2,4 +2,10 @@
     <qresource prefix="/">
         <file>main.qml</file>
     </qresource>
+    <qresource prefix="/Fonts">
+        <file alias="Art Brewery.ttf">assets/fonts/Art Brewery.ttf</file>
+        <file alias="Roboto-Light.ttf">assets/fonts/Roboto-Light.ttf</file>
+        <file alias="Roboto-Medium.ttf">assets/fonts/Roboto-Medium.ttf</file>
+        <file alias="Roboto-Regular.ttf">assets/fonts/Roboto-Regular.ttf</file>
+    </qresource>
 </RCC>
