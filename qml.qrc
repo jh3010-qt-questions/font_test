@@ -3,6 +3,8 @@
         <file>main.qml</file>
     </qresource>
     <qresource prefix="/Fonts">
+        <file alias="qmldir">assets/Fonts/qmldir</file>
+        <file alias="Fonts.qml">assets/Fonts/Fonts.qml</file>
         <file alias="Art Brewery.ttf">assets/Fonts/Art Brewery.ttf</file>
         <file alias="Roboto-Light.ttf">assets/Fonts/Roboto-Light.ttf</file>
         <file alias="Roboto-Medium.ttf">assets/Fonts/Roboto-Medium.ttf</file>
