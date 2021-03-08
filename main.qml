@@ -24,16 +24,18 @@ Window {
 
     Label
     {
+      font.family: Fonts.robotoRegular.name
+      text: "DEFAULT: ROBOTO: Pack my box with five dozen liquor jugs"
+    }
+
+    Label
+    {
       text: "DEFAULT: ART BREWERY: Pack my box with five dozen liquor jugs"
 
       font.family: Fonts.artBrewery.name
       font.pixelSize: 36
     }
 
-    Label
-    {
-      font.family: Fonts.robotoRegular.name // Fonts.robotoRegular.name
-      text: "DEFAULT: ROBOTO: Pack my box with five dozen liquor jugs"
-    }
+
   }
 }
