@@ -22,11 +22,14 @@ ApplicationWindow {
       text: "Pack my box with five dozen liquor jugs -- DEFAULT"
     }
 
-    Label // #2
     {
       font.family: Fonts.robotoBold.name
       text: "Pack my box with five dozen liquor jugs -- Roboto Bold"
     }
+    }
+
+    Label
+    {
 
     Label // #3
     {
