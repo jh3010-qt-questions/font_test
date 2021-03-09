@@ -4,7 +4,7 @@ import QtQuick.Controls 2.12
 
 import Fonts 1.0
 
-Window {
+ApplicationWindow {
   width: 640
   height: 480
   visible: true
@@ -15,22 +15,28 @@ Window {
     spacing: 8
 
     anchors.fill: parent
-    anchors.margins: 8
+    anchors.margins: 20
 
-    Label
+    Label // #1
     {
-      text: "DEFAULT: Pack my box with five dozen liquor jugs"
+      text: "Pack my box with five dozen liquor jugs -- DEFAULT"
     }
 
-    Label
+    Label // #2
     {
-      font.family: Fonts.robotoRegular.name // Fonts.robotoRegular.name
-      text: "DEFAULT: ROBOTO: Pack my box with five dozen liquor jugs"
+      font.family: Fonts.robotoBold.name
+      text: "Pack my box with five dozen liquor jugs -- Roboto Bold"
     }
 
-    Label
+    Label // #3
     {
-      text: "DEFAULT: ART BREWERY: Pack my box with five dozen liquor jugs"
+      font.family: Fonts.robotoMonoRegular.name // Fonts.robotoRegular.name
+      text: "Pack my box with five dozen liquor jugs -- Roboto Mono"
+    }
+
+    Label // #4
+    {
+      text: "Pack my box with five dozen liquor jugs -- Art Brewery"
 
       font.family: Fonts.artBrewery.name
       font.pixelSize: 36
