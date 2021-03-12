@@ -3,6 +3,7 @@ import QtQuick.Window 2.12
 import QtQuick.Controls 2.12
 
 import Fonts 1.0
+//import "qrc:/Fonts/"
 
 ApplicationWindow {
   width: 640
@@ -10,12 +11,15 @@ ApplicationWindow {
   visible: true
   title: qsTr("Hello World")
 
+  property var fontReference: Fonts.objectName
+
   Column
   {
     spacing: 8
 
     anchors.fill: parent
     anchors.margins: 20
+
 
     Label // #1
     {
