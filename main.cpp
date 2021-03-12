@@ -13,6 +13,9 @@ int main(int argc, char *argv[])
 
   engine.addImportPath( ":/" );
 
+//  qmlRegisterSingletonType<Util>("Font", 1, 0, "Font", &Util::qmlSingletonInstance);
+//  qmlRegisterSingletonType( QUrl( "file:///Users/ericg/depot_qt/questions/font_test/assets/Fonts/Fonts.qml"), "Font", 1, 0, "Font" );
+
   const QUrl url(QStringLiteral("qrc:/main.qml"));
 
   QObject::connect( &engine,

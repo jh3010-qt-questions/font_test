@@ -22,24 +22,23 @@ ApplicationWindow {
       text: "Pack my box with five dozen liquor jugs -- DEFAULT"
     }
 
-    Label // #2
-    {
-      font.family: Fonts.robotoBold.name
-      text: "Pack my box with five dozen liquor jugs -- Roboto Bold"
-    }
+//    Label // #2
+//    {
+//      font.family: Fonts.robotoBold.name
+//      text: "Pack my box with five dozen liquor jugs -- Roboto Bold"
+//    }
 
-    Label // #3
-    {
-      font.family: Fonts.robotoMonoRegular.name // Fonts.robotoRegular.name
-      text: "Pack my box with five dozen liquor jugs -- Roboto Mono"
-    }
+//    Label // #3
+//    {
+//      font.family: Fonts.robotoMonoRegular.name // Fonts.robotoRegular.name
+//      text: "Pack my box with five dozen liquor jugs -- Roboto Mono"
+//    }
 
-    Label // #4
-    {
-      text: "Pack my box with five dozen liquor jugs -- Art Brewery"
-
-      font.family: Fonts.artBrewery.name
-      font.pixelSize: 36
-    }
+//    Label // #4
+//    {
+//      text: "Pack my box with five dozen liquor jugs -- Art Brewery"
+//      font.family: Fonts.artBrewery.name
+//      font.pixelSize: 36
+//    }
   }
 }
